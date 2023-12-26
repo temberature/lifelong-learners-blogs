@@ -1,24 +1,37 @@
-# import xml.etree.ElementTree as ET
 import xml.etree.ElementTree as ET
+import feedparser
+from xml.dom import minidom
 
-# Function to create an OPML file from a list of RSS feeds
+# Function to prettify the XML
+def prettify(element):
+    rough_string = ET.tostring(element, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ")
+
+# Function to create an OPML file for Lifelong Learners
 def create_opml(feed_list, output_file):
-    # Create the root element
     root = ET.Element("opml", version="2.0")
-    # Create the head element
     head = ET.SubElement(root, "head")
-    # Adding a title to the head (Optional)
+    
+    # Adding metadata related to Lifelong Learners
     title = ET.SubElement(head, "title")
-    title.text = "RSS Feeds OPML"
-    # Create the body element
+    title.text = "Lifelong Learners RSS Feed List"
+    description = ET.SubElement(head, "description")
+    description.text = "A curated list of RSS feeds for Lifelong Learners."
+
     body = ET.SubElement(root, "body")
-    # Adding each feed to the body
-    for feed in feed_list:
-        outline = ET.SubElement(body, "outline", type="rss", text=feed, xmlUrl=feed)
-    # Create an ElementTree from the root element
-    tree = ET.ElementTree(root)
-    # Write the OPML to a file
-    tree.write(output_file, encoding="utf-8", xml_declaration=True)
+
+    for feed_url in feed_list:
+        feed = feedparser.parse(feed_url)
+        feed_title = feed.feed.get('title', 'No title available')
+        feed_description = feed.feed.get('description', 'No description available')
+        
+        # Adding each feed with enhanced information
+        outline = ET.SubElement(body, "outline", text=feed_title, type="rss", xmlUrl=feed_url, description=feed_description)
+
+    # Prettify and write the OPML to a file
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(prettify(root))
 
 # Function to read RSS feeds from a text file
 def read_feeds_from_file(file_path):
@@ -29,12 +42,12 @@ def read_feeds_from_file(file_path):
 input_file = "RSSList.txt"
 
 # Output file name
-output_opml_file = "rss_feeds.opml"
+output_opml_file = "lifelong_learners_rss_feeds.opml"
 
 # Read RSS feeds from file
 rss_list = read_feeds_from_file(input_file)
 
-# Creating OPML
+# Creating OPML for Lifelong Learners
 create_opml(rss_list, output_opml_file)
 
-print(f"OPML file created: {output_opml_file}")
+print(f"Lifelong Learners OPML file created: {output_opml_file}")

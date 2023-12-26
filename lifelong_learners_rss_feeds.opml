@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<opml version="2.0">
+  <head>
+    <title>Lifelong Learners RSS Feed List</title>
+    <description>A curated list of RSS feeds for Lifelong Learners.</description>
+  </head>
+  <body>
+    <outline text="neverland" type="rss" xmlUrl="https://type.cyhsu.xyz/feed.xml" description="Recent content on neverland"/>
+    <outline text="UNTAG" type="rss" xmlUrl="https://rsshub.app/utgd/timeline" description="UNTAG - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    <outline text="白板报" type="rss" xmlUrl="https://wangpei.me/atom.xml" description="No description available"/>
+    <outline text="Verne in GitHub" type="rss" xmlUrl="https://blog.einverne.info/feed.xml" description="No description available"/>
+    <outline text="BMPI" type="rss" xmlUrl="https://www.bmpi.dev/index.xml" description="Recent content on BMPI"/>
+    <outline text="少数派用户「吕立青_JimmyLv」动态更新" type="rss" xmlUrl="https://rsshub.app/sspai/activity/jimmylv" description="少数派用户「吕立青_JimmyLv」的动态更新 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    <outline text="刘未鹏 | Mind Hacks" type="rss" xmlUrl="https://mindhacks.cn/feed/" description="思维改变生活"/>
+    <outline text="Miobowl 的书房" type="rss" xmlUrl="https://miobowl.com/feed" description="欢迎来到 Miobowl 的书房"/>
+    <outline text="知乎专栏-助记媒介 &amp; 思想工具" type="rss" xmlUrl="https://rssh-ub-dun-three.vercel.app/zhihu/zhuanlan/c_1525784109008203776" description="知乎专栏-助记媒介 &amp; 思想工具 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    <outline text="Stories by Conan Xin on Medium" type="rss" xmlUrl="https://medium.com/feed/@conanxin" description="Stories by Conan Xin on Medium"/>
+    <outline text="Better Humans - Medium" type="rss" xmlUrl="https://betterhumans.pub/feed" description="Better Humans is one of the largest and oldest Medium’s publications on self-improvement and personal development. Our goal is to bring you the world’s most helpful writing on human potential. - Medium"/>
+    <outline text="Sam Altman" type="rss" xmlUrl="https://blog.samaltman.com/posts.atom" description="No description available"/>
+    <outline text="少数派用户「朱近野」动态更新" type="rss" xmlUrl="https://rsshub.app/sspai/activity/zhujinye" description="少数派用户「朱近野」的动态更新 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    <outline text="Square Signals" type="rss" xmlUrl="https://andymatuschak.org/feed" description="Tidbits on software, music, food, design, and life."/>
+    <outline text="ahrm’s blog" type="rss" xmlUrl="https://ahrm.github.io/feed.xml" description="Computers, Machine Learning and non-machine learning"/>
+    <outline text="Paul Graham: Essays" type="rss" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" description="Scraped feed provided by aaronsw.com"/>
+    <outline text="WindilyCloud’s Blog" type="rss" xmlUrl="https://windilycloud.cn/rss.xml" description="大脸猫皮皮的博客"/>
+    <outline text="Skyline的思考和记录本" type="rss" xmlUrl="https://skyline123.substack.com/feed" description="学习，思考，品味"/>
+    <outline text="学习者的个人主页" type="rss" xmlUrl="https://pimgeek.com/feed/page:feed.xml" description="Feed"/>
+    <outline text="🐹 知識倉鼠" type="rss" xmlUrl="https://circleghost.substack.com/feed" description="看似讀了很多東西卻未輸出，就會變成一隻知識倉鼠。
+內容涉獵 AI、商業、知識管理、生產力工具等項目。"/>
+    <outline text="指导员吴刚 的 bilibili 动态" type="rss" xmlUrl="https://rsshub.app/bilibili/user/dynamic/52269564" description="指导员吴刚 的 bilibili 动态 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+    <outline text="王树义老师 的 bilibili 动态" type="rss" xmlUrl="https://rsshub.app/bilibili/user/dynamic/314022607" description="王树义老师 的 bilibili 动态 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)"/>
+  </body>
+</opml>

@@ -4,7 +4,6 @@ https://wangpei.me/atom.xml
 https://blog.einverne.info/feed.xml
 https://www.bmpi.dev/index.xml
 https://rsshub.app/sspai/activity/jimmylv
-https://tsb2blog.com/feed/
 https://mindhacks.cn/feed/
 https://miobowl.com/feed
 https://rssh-ub-dun-three.vercel.app/zhihu/zhuanlan/c_1525784109008203776
@@ -18,7 +17,6 @@ http://www.aaronsw.com/2002/feeds/pgessays.rss
 https://windilycloud.cn/rss.xml
 https://skyline123.substack.com/feed
 https://pimgeek.com/feed/page:feed.xml
-https://sheerwill.live/index.xml
 https://circleghost.substack.com/feed
 https://rsshub.app/bilibili/user/dynamic/52269564
 https://rsshub.app/bilibili/user/dynamic/314022607
